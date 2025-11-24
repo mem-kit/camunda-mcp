@@ -7,12 +7,12 @@ Camunda MCP server using FastMCP. It is a Python based MCP server that connects 
 you can set the connection information in the .env
 
 ```
-camunda_url=http://192.168.50.156:8080/engine-rest
+camunda_url=http://localhost:8080/engine-rest
 camunda_user=demo
 camunda_password=demo
 ```
 
-Then using Camunda docker to run it in local: 
+Then using Camunda docker to run the camunda engine in local: 
 
 ```
 docker pull camunda/camunda-bpm-platform:latest
